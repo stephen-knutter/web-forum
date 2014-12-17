@@ -49,7 +49,6 @@ function check_replies($id){
 		while($row_reply = $result_reply->fetch_assoc()){
 		echo '<div class="borderReply">';
 			echo "<p class='replyTime'>".$row_reply['posted']."</p>";
-			/*echo '<p class="reply_head">'.$row_reply['title'].  '-' . $row_reply['poster'] . '-' . $row_reply['posted'] .'</p>';*/
 			echo "<p class='replyReplyMessage'><img src='images/ninja.png' width=20 height=20>".$row_reply['message']. '<span class="replyPoster">-'.$row_reply['poster'].'</span></p>';
 		echo '</div>';
 		}

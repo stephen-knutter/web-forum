@@ -1,6 +1,6 @@
 <?php
 function db_connect(){
-	$result = new mysqli('localhost', 'cl54-forum-5uz', 'HiUn3EoN', 'cl54-forum-5uz');
+	$result = new mysqli('localhost', '', '', '');
 	if(!$result){
 		return false;
 	}

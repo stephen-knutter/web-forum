@@ -54,10 +54,6 @@ suggestControl.prototype.createDropDown = function(){
 		
 		if(oEvent.type == "mousedown"){
 			window.location = oTarget.href;
-			/*
-			oThis.textbox.value = oTarget.firstChild.nodeValue;
-			oThis.hideSuggestions();
-			*/
 		} else if(oEvent.type == "mouseover"){
 			oThis.highlightSuggestion(oTarget);
 		} else {

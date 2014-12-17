@@ -51,7 +51,6 @@
 				<div id="scroll">
 					<div id="suggest"></div>
 				</div>
-				<!-- <input type="submit" class="submit" name="submit" value="search" /> -->
 			</li>
 		</ul>
 	</div>
@@ -159,14 +158,3 @@
 <?php
 	display_footer();
 ?>
-
-
-
-
-
-
-
-
-
-
-

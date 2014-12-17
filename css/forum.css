@@ -81,9 +81,7 @@ input{
 
 
 #wrap{
-	/*width: 850px;*/
 	width: 80%;
-	/*margin: 0 0 10px 300px;*/
 	float: right;
 	padding: 0 0 2px 0px;
 	margin-bottom: 20px;
@@ -96,9 +94,7 @@ input{
 }
 
 #viewWrap{
-	/*width: 850px;*/
 	width: 80%;
-	/*margin: 0 0 10px 300px;*/
 	float: right;
 	padding: 0 0 2px 0px;
 	margin-bottom: 20px;
@@ -111,7 +107,6 @@ input{
 }
 
 #topHead{
-	/*width: 850px;*/
 	width: 100%;
 	background: rgb(176,212,227); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(176,212,227,1) 0%, rgba(136,186,207,1) 100%); /* FF3.6+ */
@@ -140,7 +135,6 @@ input{
 	list-style: none;
 	display: inline;
 	font-size: 16px;
-	/*margin-right: 160px;*/
 	font-weight: bold;
 	color: #3f4c6b;
 }
@@ -151,7 +145,6 @@ input{
 }
 
 #topicsHead, #topPosts{
-	/*width: 850px;*/
 	width: 100%;
 	background: rgb(255,183,107); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(255,183,107,1) 0%, rgba(255,167,61,1) 50%, rgba(255,124,0,1) 51%, rgba(255,127,4,1) 100%); /* FF3.6+ */
@@ -161,14 +154,6 @@ input{
 	background: -ms-linear-gradient(top,  rgba(255,183,107,1) 0%,rgba(255,167,61,1) 50%,rgba(255,124,0,1) 51%,rgba(255,127,4,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,183,107,1) 0%,rgba(255,167,61,1) 50%,rgba(255,124,0,1) 51%,rgba(255,127,4,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
-	/*
-	border-top-left-radius: 10px;
-	-webkit-border-top-left-radius: 10px;
-	-moz-border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	-webkit-border-top-right-radius: 10px;
-	-moz-border-top-right-radius: 10px;
-	*/
 	margin: 0;
 	padding: 0;
 }
@@ -252,7 +237,6 @@ input{
 #sidebar{
 	position: absolute;
 	top: 0;
-	/*left: 50px;*/
 	left: 0;
 	height: auto;
 	width: 200px;
@@ -328,7 +312,6 @@ input{
 	border: 2px solid #ff7f04;
 	font-weight: bold;
 	color: white;
-	/*margin-top: 20px;*/
 	cursor: pointer;
 }
 
@@ -483,7 +466,6 @@ label{
 view_post.php
 ***********/
 #stripeSpace{
-	/*width: 850px;*/
 	width: 100%;
 	height: 25px;
 	background: transparent url('../images/stripe.png');
@@ -525,7 +507,6 @@ view_post.php
 }
 
 #replyWrap{
-	
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -566,7 +547,6 @@ view_post.php
 }
 
 .replyBoxThread{
-	/*width: 500px;*/
 	width: 70%;
 	height: 150px;
 	border: 1px solid #ff7f04;
@@ -579,7 +559,6 @@ view_post.php
 	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
 	resize: none;
-	/*margin: 0 0 0 175px;*/
 	margin: 0 0 0 15%;
 	padding: 0;
 	color: #536475;
@@ -637,7 +616,6 @@ view_post.php
 }
 
 .submitButtonThread{
-	/*margin: 5px 0 0 175px;*/
 	margin: 0 0 0 15%;
 	background: rgb(255,183,107); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(255,183,107,1) 0%, rgba(255,167,61,1) 26%, rgba(255,124,0,1) 28%, rgba(255,127,4,1) 100%); /* FF3.6+ */
@@ -684,7 +662,6 @@ view_post.php
 .poster{
 	color: #990000;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	/*border-bottom: 1px dashed #990000;*/
 	padding: 2px 0 2px 10px;
 	margin: 0;
 	background-color: #F5F1E8;
@@ -756,7 +733,6 @@ TOP & BOTTOM NAV
 	width: 596px;
 	height: 50px;
 	padding: 0;
-	/*margin: -10px 0 0 310px;*/
 	margin: -10px 5% 0 0;
 	background: url('../images/bottom_nav.png') no-repeat;
 	-webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
@@ -799,7 +775,6 @@ TOP & BOTTOM NAV
 }
 
 @media only screen and (max-width : 1100px){
-
 	/*INDEX.PHP*/
 	#loginMobile{
 		display: block;

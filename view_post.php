@@ -152,7 +152,6 @@
 			
 			echo "<form action='view_post.php' method='post'>";
 					echo '<input type="hidden" name="location" value="'.$location.'">';
-			/*echo '<p class="reply_head">'.$row['title'].  ' ' . $row['poster'] . '-' . $row['posted'] .'</p>';*/
 					echo '<p class="postTime">'.$row['posted'].'</p>';
 					echo '<div class="posterBasic">';
 					echo '<p class="poster"><img src="images/face.jpg" width="32" height="32" />'.$row['poster'].'</p>';
@@ -195,34 +194,3 @@
 	display_footer();
 ?>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

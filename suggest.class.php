@@ -5,7 +5,7 @@
 		private $mMysqli;
 	
 		function __construct(){
-			$this->mMysqli = new mysqli('localhost', 'cl54-forum-5uz', 'HiUn3EoN', 'cl54-forum-5uz');
+			$this->mMysqli = new mysqli('localhost', '', '', '');
 		}
 		
 		function __destruct(){
@@ -37,35 +37,3 @@
 		}
 	}
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
